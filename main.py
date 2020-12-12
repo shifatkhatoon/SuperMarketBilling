@@ -2,6 +2,7 @@ from os import system
 # from models import Product, Department, Invoice, session
 from product import show_products
 from customer import customer_menu
+from admin_page import admin_menu
 
 #
 # create_dept = Department(name="Cosmetic")
@@ -18,11 +19,6 @@ from customer import customer_menu
 #
 # session.add(vaseline)
 # session.commit()
-
-
-def admin_menu():
-    print('etst')
-
 
 def show_intro():
     print("\n\n\n\t\t\t\t\t Welcome to Supermarket Billing \n\t\t\t\t\t Press Enter key to enter!!")
