@@ -1,6 +1,8 @@
 from os import system
-from models import Product
+from models import Product, session
 from product import show_products
+
+products = session.query(Product)
 
 
 def customer_menu():
