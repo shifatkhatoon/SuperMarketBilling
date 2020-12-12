@@ -27,9 +27,7 @@ def show_intro():
 
     input()
 
-
-if __name__ == "__main__":
-    show_intro()
+def main():
     while True:
         system('clear')
         print("\n\n\n\tSelect your kind")
@@ -48,3 +46,7 @@ if __name__ == "__main__":
             show_products()
         else:
             break
+
+if __name__ == "__main__":
+    show_intro()
+    main()
