@@ -1,5 +1,7 @@
 from os import system
-from models import Product
+from models import Product, session
+
+products = session.query(Product)
 
 
 def show_products():
